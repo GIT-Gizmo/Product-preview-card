@@ -1,0 +1,144 @@
+body {
+    background-color: #FBF2CF;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'Fraunces';
+    font-weight: 700;
+}
+
+span {
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.pricing {
+    color: #367E18;
+    font-family: 'Fraunces';
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+.row {
+    border: 100px;
+    background-color: #fff;
+    margin: 10% 30%;
+}
+
+.image-div {
+    object-fit: fill;
+    padding: 0%;
+}
+
+.perfume-img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 0%;
+    width: 125%;
+}
+
+.product-text {
+    padding: 20px 20px 0px 80px;
+    margin: 0px;
+    width: 10%;
+    text-align: left;
+}
+
+a {
+    padding-left: 1px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-cart-shopping {
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #0d360e;
+    padding: 2px 40px 2px 40px;
+}
+
+.btn:hover {
+    background: #274d04;
+    background-image: -webkit-linear-gradient(top, #274d04, #274d04);
+    background-image: -moz-linear-gradient(top, #274d04, #274d04);
+    background-image: -ms-linear-gradient(top, #274d04, #274d04);
+    background-image: -o-linear-gradient(top, #274d04, #274d04);
+    background-image: linear-gradient(to bottom, #274d04, #274d04);
+    text-decoration: none;
+}
+
+@media (max-width:1074px) {
+    body {}
+
+    .perfume-img {
+
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+        height: 500px;
+        width: 695px;
+    }
+
+    .product-text {
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .row {
+        padding: 0%;
+        margin: 5%;
+    }
+
+}
+
+@media (max-width: 428px) {
+    .perfume-img {
+        width: 387px;
+    }
+}
+
+@media (max-width:414px) {
+    .perfume-img {
+        width: 372px;
+    }
+}
+
+@media (max-width:375px) {
+    .perfume-img {
+        width: 338px;
+    }
+}
+
+@media (max-width:360px) {
+    .perfume-img {
+        width: 324px;
+    }
+}
+
+@media (max-width:393px) {
+    .perfume-img {
+        width: 353px;
+    }
+}
+
+@media (max-width:320px) {
+    .perfume-img {
+        width: 288px;
+    }
+}
